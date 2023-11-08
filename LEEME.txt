@@ -1,6 +1,8 @@
 Estos son los archivos para la prueba de diagnostico DESIS en el que solicitan un sistema de votacion en HTML, PHP, Javascript y base de datos MYSQL.
 Los cuales realice usando la plataforma Xampp y para la base de datos usé phpMyAdmin.
 
+basicamente para que funcione hay que subir los archivos a un servidor.
+
 para que funcione el programa se necesita un servidor por que el programa viene en un formato para ser directamente instalado o probado desde un servidor.
 se puede usar un servidor local o uno real, lo que requiere 3 pasos para la base de datos, credenciales y poner los archivos en la carpeta raiz
 
@@ -30,10 +32,9 @@ los archivos para poder ser usados en una url (de chrome preferentemente) como l
 
 PARA UN SERVIDOR REAL
 Para instalarlo en un servidor real (dependiendo del tipo de servidor) hay que subir los archivos a la carpeta raiz, instalar la base de datos (recomindo usar 
-la creacion de base de datos que viene en query del archivo "/bd encuesta mysql para ejecutar en query phpmyadmin.txt") y dar acceso (o credenciales) como usuario a 
-la base de datos que son: usuario="user", passsword="duoc" para la base de datos "encuestas".
+la creacion de base de datos que viene en query del archivo "/bd encuesta mysql para ejecutar en query phpmyadmin.txt") y dar acceso (o credenciales) como usuario a la base de datos que son: usuario="user", passsword="duoc" para la base de datos "encuestas".
 
-DATO: si la persona que instala el programa es un entendido en el tema de la programacion debereia saber como es la instalacion y configuracion descrita
+DATO: si la persona que instala el programa es un entendido en el tema de la programacion debereia entender la instalacion y configuracion descrita
 
 (versiones)
 -- phpMyAdmin SQL Dump
