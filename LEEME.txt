@@ -1,0 +1,49 @@
+Estos son los archivos para la prueba de diagnostico DESIS en el que solicitan un sistema de votacion en HTML, PHP, Javascript y base de datos MYSQL.
+Los cuales realice usando la plataforma Xampp y para la base de datos usé phpMyAdmin.
+
+para que funcione el programa se necesita un servidor por que el programa viene en un formato para ser directamente instalado o probado desde un servidor.
+se puede usar un servidor local o uno real, lo que requiere 3 pasos para la base de datos, credenciales y poner los archivos en la carpeta raiz
+
+INSTRUCCIONES PARA 1)CREAR LA BASE DE DATOS 2)DAR CREDENCIALES A LA CONEXION DE LA PAGINA CON EL SERVIDOR 3)SUBIR LA PAGINA A LOCALHOST 
+Para instalarlo en un computador como servidor recomiendo instalar Xampp version 8.1.2 y activar sus modulos Apache y MySQL 
+
+1)CREAR LA BASE DE DATOS
+Es mejor crear la base de datos antes de probarlo (o si no no funcionaran las funciones del programa), para eso hay que ingresar en una url del pc al modulo phpMyAdmin
+de las base de datos http://localhost/phpmyadmin/index.php y iniciar una consulta sql con los comandos sql dentro de la carpeta (/base de datos SQL/) en
+el archivo: (bd encuesta mysql para ejecutar en query phpmyadmin.txt)
+
+2)DAR CREDENCIALES A LA CONEXION DE LA PAGINA CON EL SERVIDOR
+Luego hay que crear en la based de datos el USUARIO DE LA BASE DEDATOS que conectara y se le dará permiso para que la pagina php pueda ingresar a 
+la base de datos phpMyAdmin creada.
+
+el usuario (de youtube Calima Framework) explica muy basicamente como cambiar las credenciales Usuario, Clave y Base de datos Mysql 
+en https://www.youtube.com/watch?v=xo1Y4h6t-yM&t=9s 
+
+o si se desea se pueden cambiar el usuario y contraseña en la pagina en el que se hace la consulta hacia la base de datos:
+el usuario es "user" y la contraseña es "duoc" y la base de datos a conectar es "encuestas"
+pueden ser modificados en el archivo /modelo/funciones.php (donde se crea la conexion con la bd "new mysqli("localhost","user","duoc","encuestas");") para facilitar la conexion a la base de datos
+conexion de la pagina a la base de datos.
+
+3)SUBIR LA PAGINA A LOCALHOST
+luego de creada la base de datos hay que copiar los archivos a la carpeta C:\xampp\htdocs\ (o en su defecto "donde se instalo xampp"\xampp\htdocs\) como raiz de
+los archivos para poder ser usados en una url (de chrome preferentemente) como localhost/inicio.php (o 127.0.0.1/inicio.php)
+
+PARA UN SERVIDOR REAL
+Para instalarlo en un servidor real (dependiendo del tipo de servidor) hay que subir los archivos a la carpeta raiz, instalar la base de datos (recomindo usar 
+la creacion de base de datos que viene en query del archivo "/bd encuesta mysql para ejecutar en query phpmyadmin.txt") y dar acceso (o credenciales) como usuario a 
+la base de datos que son: usuario="user", passsword="duoc" para la base de datos "encuestas".
+
+DATO: si la persona que instala el programa es un entendido en el tema de la programacion debereia saber como es la instalacion y configuracion descrita
+
+(versiones)
+-- phpMyAdmin SQL Dump
+-- version 5.1.1
+-- https://www.phpmyadmin.net/
+--
+-- Servidor: 127.0.0.1
+-- Tiempo de generación: 08-11-2023 a las 00:57:24
+-- Versión del servidor: 10.4.22-MariaDB
+-- Versión de PHP: 8.1.2
+
+
+
