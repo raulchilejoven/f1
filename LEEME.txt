@@ -34,7 +34,7 @@ PARA UN SERVIDOR REAL
 Para instalarlo en un servidor real (dependiendo del tipo de servidor) hay que subir los archivos a la carpeta raiz, instalar la base de datos (recomindo usar 
 la creacion de base de datos que viene en query del archivo "/bd encuesta mysql para ejecutar en query phpmyadmin.txt") y dar acceso (o credenciales) como usuario a la base de datos que son: usuario="user", passsword="duoc" para la base de datos "encuestas".
 
-DATO: si la persona que instala el programa es un entendido en el tema de la programacion debereia entender la instalacion y configuracion descrita
+DATO: si la persona que instala el programa es un entendido en la programacion debereia entender la instalacion y configuracion descrita
 
 (versiones)
 -- phpMyAdmin SQL Dump
